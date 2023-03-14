@@ -1,3 +1,11 @@
 /.idea/misc.xml
 /.idea/
 /.target/
+/target/test-classes/TestUI/GeneralTest.class
+/target/test-classes/TestUI/ListOfQuestionTest.class
+/target/classes/PageObjects/MainPage.class
+/target/test-classes/TestUI/OpenPageТest.class
+/target/classes/PageObjects/OrderPage.class
+/target/test-classes/TestUI/OrderTest.class
+/target/test-classes/TestUI/OrderTestParametrized.class
+/target/classes/PageObjects/RentPage.class
