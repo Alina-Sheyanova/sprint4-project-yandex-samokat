@@ -9,3 +9,6 @@
 /target/test-classes/TestUI/OrderTest.class
 /target/test-classes/TestUI/OrderTestParametrized.class
 /target/classes/PageObjects/RentPage.class
+/target/test-classes/uitest/BaseTest.class
+/target/test-classes/uitest/OrderTestParametrized.class
+/target/test-classes/uitest/TestListOfQuestionsAboutImportant.class
