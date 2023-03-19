@@ -25,7 +25,7 @@ public class MainPage {
     private final By orderButton = By.xpath(".//button[(@class ='Button_Button__ra12g Button_Middle__1CSJM' and text()='Заказать')]");
 
     // Локаторы кнопок с вопросами
-    private static final String[] questionArrayButtons = new String[]{
+    public static final String[] questionArrayButtons = new String[]{
             "accordion__heading-0",
             "accordion__heading-1",
             "accordion__heading-2",
@@ -35,7 +35,7 @@ public class MainPage {
             "accordion__heading-6",
             "accordion__heading-7"};
     //Локаторы текстов "Вопросы о важном
-    private static final String[]  textQuestionsAboutImportantArray = new String[]{
+    public static final String[]  textQuestionsAboutImportantArray = new String[]{
             "accordion__panel-0",
             "accordion__panel-1",
             "accordion__panel-2",
@@ -82,15 +82,4 @@ public class MainPage {
                 .until(ExpectedConditions.elementToBeClickable(By.id(questionButtonLocator)));
         driver.findElement(By.id(questionButtonLocator)).click();
     }
-
-//    public void listEquals() {
-//        clickCookieButton();
-//        scrollToPushOderButton();
-//        List<WebElement> buttonsQuestionAboutImportant = driver.findElements(buttonsListQuestion);
-//        for (int i = 0; i < buttonsQuestionAboutImportant.size(); i++) {
-//            buttonsQuestionAboutImportant.get(i).click();
-//            List<String> actualResult = Arrays.asList(actualResultOfQuestion);
-//            assertEquals("Неправильная строка", driver.findElements(textListQuestions).get(i).getText(), actualResult.get(i));
-//        }
-//    }
 }
